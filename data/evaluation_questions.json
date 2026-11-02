@@ -1,0 +1,34 @@
+[
+  {
+    "question_id": "Q001",
+    "question": "REPLACE: e.g. What is the minimum IELTS score for undergraduate entry?",
+    "type": "direct",
+    "expected_answer": "REPLACE: copy the exact value from the document",
+    "supporting_sources": [{"document": "REPLACE.pdf", "page": 0}],
+    "answerable": true
+  },
+  {
+    "question_id": "Q002",
+    "question": "REPLACE: same fact as Q001, reworded with different vocabulary",
+    "type": "paraphrase",
+    "expected_answer": "",
+    "supporting_sources": [{"document": "REPLACE.pdf", "page": 0}],
+    "answerable": true
+  },
+  {
+    "question_id": "Q003",
+    "question": "REPLACE: needs facts from two different passages/pages",
+    "type": "multi_passage",
+    "expected_answer": "",
+    "supporting_sources": [{"document": "REPLACE.pdf", "page": 0}, {"document": "REPLACE.pdf", "page": 0}],
+    "answerable": true
+  },
+  {
+    "question_id": "Q004",
+    "question": "REPLACE: plausible question the corpus does NOT answer",
+    "type": "unanswerable",
+    "expected_answer": "INSUFFICIENT_EVIDENCE",
+    "supporting_sources": [],
+    "answerable": false
+  }
+]
